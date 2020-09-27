@@ -8,12 +8,12 @@ import (
 	"sync"
 
 	utils "github.com/ChainSafe/ChainBridge/shared/substrate"
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/kaelnew/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
-	gsrpc "github.com/centrifuge/go-substrate-rpc-client"
-	"github.com/centrifuge/go-substrate-rpc-client/rpc/author"
-	"github.com/centrifuge/go-substrate-rpc-client/signature"
-	"github.com/centrifuge/go-substrate-rpc-client/types"
+	gsrpc "github.com/kaelnew/go-substrate-rpc-client"
+	"github.com/kaelnew/go-substrate-rpc-client/rpc/author"
+	"github.com/kaelnew/go-substrate-rpc-client/signature"
+	"github.com/kaelnew/go-substrate-rpc-client/types"
 )
 
 type Connection struct {
