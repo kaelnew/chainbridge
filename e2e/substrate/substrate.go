@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	utils "github.com/ChainSafe/ChainBridge/shared/substrate"
+	utils "github.com/kaelnew/chainbridge/shared/substrate"
 	"github.com/kaelnew/chainbridge-utils/core"
 	"github.com/kaelnew/chainbridge-utils/keystore"
 	"github.com/kaelnew/chainbridge-utils/msg"

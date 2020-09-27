@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"math/big"
 
-	utils "github.com/ChainSafe/ChainBridge/shared/ethereum"
+	utils "github.com/kaelnew/chainbridge/shared/ethereum"
 	"github.com/kaelnew/chainbridge-utils/core"
 	"github.com/kaelnew/chainbridge-utils/msg"
 	"github.com/ethereum/go-ethereum/common"

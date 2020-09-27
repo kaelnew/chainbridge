@@ -105,13 +105,13 @@ Prometheus metrics are served on `/metrics`.
 
 # Chain Implementations
 
-- Ethereum (Solidity): [chainbridge-solidity](https://github.com/ChainSafe/chainbridge-solidity) 
+- Ethereum (Solidity): [chainbridge-solidity](https://github.com/kaelnew/chainbridge-solidity) 
 
     The Solidity contracts required for chainbridge. Includes deployment and interaction CLI.
     
     The bindings for the contracts live in `bindings/`. To update the bindings modify `scripts/setup-contracts.sh` and then run `make clean && make setup-contracts`
 
-- Substrate: [chainbridge-substrate](https://github.com/ChainSafe/chainbridge-substrate)
+- Substrate: [chainbridge-substrate](https://github.com/kaelnew/chainbridge-substrate)
 
     A substrate pallet that can be integrated into a chain, as well as an example pallet to demonstrate chain integration.
 
@@ -132,7 +132,7 @@ A docker-compose file is provided to run two Geth nodes and a chainbridge-substr
 $ docker-compose -f ./docker-compose-e2e.yml up
 ```
 
-See [chainbridge-solidity](https://github.com/chainsafe/chainbridge-solidity) and [chainbridge-substrate-chain](https://github.com/ChainSafe/chainbridge-substrate-chain) for more information on testing facilities.
+See [chainbridge-solidity](https://github.com/kaelnew/chainbridge-solidity) and [chainbridge-substrate-chain](https://github.com/kaelnew/chainbridge-substrate-chain) for more information on testing facilities.
 
 All Go tests can be run with:
 ```

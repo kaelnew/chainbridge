@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"testing"
 
-	eth "github.com/ChainSafe/ChainBridge/e2e/ethereum"
-	sub "github.com/ChainSafe/ChainBridge/e2e/substrate"
-	ethtest "github.com/ChainSafe/ChainBridge/shared/ethereum/testing"
-	subtest "github.com/ChainSafe/ChainBridge/shared/substrate/testing"
+	eth "github.com/kaelnew/chainbridge/e2e/ethereum"
+	sub "github.com/kaelnew/chainbridge/e2e/substrate"
+	ethtest "github.com/kaelnew/chainbridge/shared/ethereum/testing"
+	subtest "github.com/kaelnew/chainbridge/shared/substrate/testing"
 	log "github.com/ChainSafe/log15"
 	"github.com/kaelnew/go-substrate-rpc-client/types"
 )

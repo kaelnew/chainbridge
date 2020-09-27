@@ -8,7 +8,7 @@ import (
 	"math/big"
 	"testing"
 
-	utils "github.com/ChainSafe/ChainBridge/shared/substrate"
+	utils "github.com/kaelnew/chainbridge/shared/substrate"
 	"github.com/ChainSafe/log15"
 	"github.com/kaelnew/go-substrate-rpc-client/types"
 )

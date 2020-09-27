@@ -2,10 +2,10 @@
 ## Prerequisites
 
 - Docker, docker-compose
-- chainbridge `v1.0.0` binary (see [README](https://github.com/chainsafe/chainbridge/#building))
+- chainbridge `v1.0.0` binary (see [README](https://github.com/kaelnew/chainbridge/#building))
 - Polkadot JS Portal ([https://portal.chain.centrifuge.io](https://portal.chain.centrifuge.io/))
     - Type definitions can be found here: [https://gist.github.com/ansermino/0280b30594a9bc653ae288ccca46dc55](https://gist.github.com/ansermino/0280b30594a9bc653ae288ccca46dc55)
-- cb-sol-cli (see [README](https://github.com/ChainSafe/chainbridge-deploy/tree/master/cb-sol-cli#cb-sol-cli-documentation))
+- cb-sol-cli (see [README](https://github.com/kaelnew/chainbridge-deploy/tree/master/cb-sol-cli#cb-sol-cli-documentation))
 
 ## Starting Local Chains
 

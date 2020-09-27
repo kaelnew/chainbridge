@@ -1,10 +1,9 @@
-module github.com/ChainSafe/ChainBridge
+module github.com/kaelnew/chainbridge
 
 go 1.13
 
 require (
 	github.com/ChainSafe/log15 v1.0.0
-	github.com/aristanetworks/goarista v0.0.0-20200609010056-95bcf8053598 // indirect
 	github.com/ethereum/go-ethereum v1.9.21
 	github.com/kaelnew/chainbridge-utils v1.0.0
 	github.com/kaelnew/go-substrate-rpc-client v1.0.0

@@ -3,7 +3,7 @@
 /*
 Provides the command-line interface for the chainbridge application.
 
-For configuration and CLI commands see the README: https://github.com/ChainSafe/ChainBridge.
+For configuration and CLI commands see the README: https://github.com/kaelnew/chainbridge.
 */
 package main
 
@@ -14,9 +14,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/ChainSafe/ChainBridge/chains/ethereum"
-	"github.com/ChainSafe/ChainBridge/chains/substrate"
-	"github.com/ChainSafe/ChainBridge/config"
+	"github.com/kaelnew/chainbridge/chains/ethereum"
+	"github.com/kaelnew/chainbridge/chains/substrate"
+	"github.com/kaelnew/chainbridge/config"
 	"github.com/kaelnew/chainbridge-utils/core"
 	"github.com/kaelnew/chainbridge-utils/metrics/health"
 	metrics "github.com/kaelnew/chainbridge-utils/metrics/types"
