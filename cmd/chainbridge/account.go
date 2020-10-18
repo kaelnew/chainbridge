@@ -10,13 +10,13 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/kaelnew/chainbridge/config"
+	log "github.com/ChainSafe/log15"
+	gokeystore "github.com/ethereum/go-ethereum/accounts/keystore"
 	"github.com/kaelnew/chainbridge-utils/crypto"
 	"github.com/kaelnew/chainbridge-utils/crypto/secp256k1"
 	"github.com/kaelnew/chainbridge-utils/crypto/sr25519"
 	"github.com/kaelnew/chainbridge-utils/keystore"
-	log "github.com/ChainSafe/log15"
-	gokeystore "github.com/ethereum/go-ethereum/accounts/keystore"
+	"github.com/kaelnew/chainbridge/config"
 	"github.com/urfave/cli/v2"
 )
 

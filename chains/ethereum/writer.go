@@ -1,17 +1,14 @@
-// Copyright 2020 ChainSafe Systems
+// Copyright 2020 Stafi Protocol
 // SPDX-License-Identifier: LGPL-3.0-only
 
 package ethereum
 
 import (
-	"github.com/kaelnew/chainbridge/bindings/Bridge"
-	"github.com/kaelnew/chainbridge-utils/core"
+	"github.com/ChainSafe/log15"
 	metrics "github.com/kaelnew/chainbridge-utils/metrics/types"
 	"github.com/kaelnew/chainbridge-utils/msg"
-	"github.com/ChainSafe/log15"
+	"github.com/kaelnew/chainbridge/bindings/Bridge"
 )
-
-var _ core.Writer = &writer{}
 
 // https://github.com/kaelnew/chainbridge-solidity/blob/b5ed13d9798feb7c340e737a726dd415b8815366/contracts/Bridge.sol#L20
 var PassedStatus uint8 = 2
@@ -58,10 +55,6 @@ func (w *writer) ResolveMessage(m msg.Message) bool {
 	switch m.Type {
 	case msg.FungibleTransfer:
 		return w.createErc20Proposal(m)
-	case msg.NonFungibleTransfer:
-		return w.createErc721Proposal(m)
-	case msg.GenericTransfer:
-		return w.createGenericDepositProposal(m)
 	default:
 		w.log.Error("Unknown message type received", "type", m.Type)
 		return false

@@ -1,4 +1,4 @@
-// Copyright 2020 ChainSafe Systems
+// Copyright 2020 Stafi Protocol
 // SPDX-License-Identifier: LGPL-3.0-only
 
 package utils
@@ -15,7 +15,6 @@ func (es EventSig) GetTopic() common.Hash {
 }
 
 const (
-	Deposit       EventSig = "Deposit(uint8,bytes32,uint64)"
 	ProposalEvent EventSig = "ProposalEvent(uint8,uint64,uint8,bytes32,bytes32)"
 	ProposalVote  EventSig = "ProposalVote(uint8,uint64,uint8,bytes32)"
 )

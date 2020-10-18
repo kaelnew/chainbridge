@@ -8,11 +8,11 @@ import (
 	"math/big"
 	"testing"
 
-	ethutils "github.com/kaelnew/chainbridge/shared/ethereum"
-	ethtest "github.com/kaelnew/chainbridge/shared/ethereum/testing"
-	"github.com/kaelnew/chainbridge-utils/keystore"
 	"github.com/ChainSafe/log15"
 	ethcmn "github.com/ethereum/go-ethereum/common"
+	"github.com/kaelnew/chainbridge-utils/keystore"
+	ethutils "github.com/kaelnew/chainbridge/shared/ethereum"
+	ethtest "github.com/kaelnew/chainbridge/shared/ethereum/testing"
 )
 
 var TestEndpoint = "ws://localhost:8545"

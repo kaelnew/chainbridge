@@ -1,4 +1,4 @@
-// Copyright 2020 ChainSafe Systems
+// Copyright 2020 Stafi Protocol
 // SPDX-License-Identifier: LGPL-3.0-only
 
 package utils
@@ -10,11 +10,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kaelnew/chainbridge-utils/crypto/secp256k1"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/kaelnew/chainbridge-utils/crypto/secp256k1"
 )
 
 const DefaultGasLimit = 6721975
@@ -31,7 +31,7 @@ type Client struct {
 
 func NewClient(endpoint string, kp *secp256k1.Keypair) (*Client, error) {
 	ctx := context.Background()
-	rpcClient, err := rpc.DialWebsocket(ctx, endpoint, "/ws")
+	rpcClient,err := rpc.DialWebsocket(ctx, endpoint, "/ws")
 	if err != nil {
 		return nil, err
 	}

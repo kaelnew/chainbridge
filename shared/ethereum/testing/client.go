@@ -1,4 +1,4 @@
-// Copyright 2020 ChainSafe Systems
+// Copyright 2020 Stafi Protocol
 // SPDX-License-Identifier: LGPL-3.0-only
 
 package ethtest
@@ -26,11 +26,4 @@ func GetLatestBlock(t *testing.T, client *utils.Client) *big.Int {
 		t.Fatal(err)
 	}
 	return block.Number()
-}
-
-func LockNonceAndUpdate(t *testing.T, client *utils.Client) {
-	err := client.LockNonceAndUpdate()
-	if err != nil {
-		t.Fatal(err)
-	}
 }

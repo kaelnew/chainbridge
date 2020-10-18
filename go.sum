@@ -130,6 +130,8 @@ github.com/julienschmidt/httprouter v1.1.1-0.20170430222011-975b5c4c7c21/go.mod 
 github.com/julienschmidt/httprouter v1.2.0/go.mod h1:SYymIcj16QtmaHHD7aYtjjsJG7VTCxuUUipMqKk8s4w=
 github.com/kaelnew/chainbridge-utils v1.0.1 h1:t/q0GBYi2YJoclfBYTN8qy39ML0XX8XIv+pZTKAJbzI=
 github.com/kaelnew/chainbridge-utils v1.0.1/go.mod h1:jMQDHIF58Y7hsasi+t3QH7lEzp5suGDos4fWH8iISi8=
+github.com/kaelnew/chainbridge-utils v1.0.2 h1:JYrvq5AEmaGv2YXqNDdIdfNcKd1NWXJYmd6tHRANqxE=
+github.com/kaelnew/chainbridge-utils v1.0.2/go.mod h1:jMQDHIF58Y7hsasi+t3QH7lEzp5suGDos4fWH8iISi8=
 github.com/kaelnew/go-substrate-rpc-client v1.0.1 h1:/KLouEyCabFIxk2uz+DvBRh0yLyMgNspnH0iIUJvLjM=
 github.com/kaelnew/go-substrate-rpc-client v1.0.1/go.mod h1:jXxpO7GBjoaRcDwAniJ2bFfBDju0BvXHA7OZIJ+i3cU=
 github.com/karalabe/usb v0.0.0-20190919080040-51dc0efba356 h1:I/yrLt2WilKxlQKCM52clh5rGzTKpVctGT1lH4Dc8Jw=

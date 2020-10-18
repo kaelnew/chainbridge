@@ -1,10 +1,6 @@
-// Copyright 2020 ChainSafe Systems
+// Copyright 2020 Stafi Protocol
 // SPDX-License-Identifier: LGPL-3.0-only
-/*
-Provides the command-line interface for the chainbridge application.
 
-For configuration and CLI commands see the README: https://github.com/kaelnew/chainbridge.
-*/
 package main
 
 import (
@@ -14,14 +10,14 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/kaelnew/chainbridge/chains/ethereum"
-	"github.com/kaelnew/chainbridge/chains/substrate"
-	"github.com/kaelnew/chainbridge/config"
+	log "github.com/ChainSafe/log15"
 	"github.com/kaelnew/chainbridge-utils/core"
 	"github.com/kaelnew/chainbridge-utils/metrics/health"
 	metrics "github.com/kaelnew/chainbridge-utils/metrics/types"
 	"github.com/kaelnew/chainbridge-utils/msg"
-	log "github.com/ChainSafe/log15"
+	"github.com/kaelnew/chainbridge/chains/ethereum"
+	"github.com/kaelnew/chainbridge/chains/substrate"
+	"github.com/kaelnew/chainbridge/config"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/urfave/cli/v2"
 )
